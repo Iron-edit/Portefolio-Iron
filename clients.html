@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clients – Iron | Monteur Vidéo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="small-header">
+    <nav>
+        <div class="logo">IRON <span>EDITOR</span></div>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="clients.html" >Clients</a></li>
+            <li><a href="projets.html">Projets</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero small">
+        <h1>Mes Clients</h1>
+        <p>Ils m’ont fait confiance pour leurs projets vidéo.</p>
+    </div>
+</header>
+
+<section class="section">
+    <h2>CLIENTS & AVIS</h2>
+
+    <div class="grid">
+
+        <!-- CLIENT 1 -->
+        <div class="client-card fade-in">
+            <img src="assets/chaine-hochy.jpg" class="client-logo" alt="Logo client 1">
+            <h3>Hochy</h3>
+            <div class="stars">★★★★☆</div>
+            <p class="review">"Franchement niveau rapport qualité/prix c'est vraiment bien je recommande, très agréable à parler et en plus de ça tu rends tes travaux assez vite ! (En prime il est trop bo)"</p>
+        </div>
+
+        <!-- CLIENT 2 -->
+        <div class="client-card fade-in">
+            <img src="assets/stima-pdp.jpg" class="client-logo" alt="Logo client 2" width="2000px">
+            <h3>Sitma</h3>
+            <div class="stars"></div>
+            <p class="review"></p>
+        </div>
+
+        <!-- CLIENT 3 -->
+        <div class="client-card fade-in">
+            <img src="assets/NOPRYM NEW SKIN.jpg" class="client-logo" alt="Logo client 3">
+            <h3>Syhkoz</h3>
+            <div class="stars"></div>
+            <p class="review"></p>
+        </div>
+
+        <!-- CLIENT 4 -->
+        <div class="client-card fade-in">
+            <img src="assets/allyson-pdp.jpg" class="client-logo" alt="Logo client 4">
+            <h3>Allyson</h3>
+            <div class="stars"></div>
+            <p class="review"></p>
+        </div>
+
+        <div class="client-card fade-in">
+            <img src="assets/shistoplays-pdp.jpg" class="client-logo" alt="Logo client 5">
+            <h3>ShistoPlays</h3>
+            <div class="stars"></div>
+            <p class="review"></p>
+        </div>
+        <div class="client-card fade-in">
+            <img src="assets/arshii-pdp.jpg" class="client-logo" alt="Logo client 6">
+            <h3>Arshii</h3>
+            <div class="stars"></div>
+            <p class="review"></p>
+        </div>
+        <div class="client-card fade-in">
+            <img src="assets/natox-pdp.jpg" class="client-logo" alt="Logo client 7">
+            <h3>Natox</h3>
+            <div class="stars"></div>
+            <p class="review"></p>
+        </div>
+        <div class="client-card fade-in">
+            <img src="assets/ragneuf-pdp.jpg" class="client-logo" alt="Logo client 8">
+            <h3>Ragneuf</h3>
+            <div class="stars"></div>
+            <p class="review"></p>
+        </div>
+        
+    </div>
+</section>
+
+<section class="section">
+    <h2>MON EXPERIENCE</h2>
+    <p>Je travail pour Atlas, une agence passionnée et qui évolue chaque jour.</p>
+    <br><br>
+    <div class="client-card fade-in">
+        <a href="https://x.com/atlas_mgp" target="_blank">
+            <img src="assets/atlas-lite.jpg" class="atlas-logo" alt="Logo client 9" >
+        </a>
+        <h3></h3>
+        <div class="stars"></div>
+        <p class="review"></p>
+    </div>
+    
+
+<script>
+// Animation d'apparition progressive
+const elements = document.querySelectorAll('.fade-in');
+elements.forEach((el, i) => {
+    setTimeout(() => {
+        el.classList.add('visible');
+    }, i * 200);
+});
+</script>
+
+</body>
+</html>
